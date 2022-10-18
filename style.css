@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#canvas{
+    /* background:cyan; */
+    position:absolute;
+}
+.controls {
+    position: absolute;
+    z-index: 100;
+}
+img{
+    display: none;
+}
+#wrapButton{
+    all:unset;
+    padding:20px 60px;
+    background:honeydew;
+    font-size:18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
